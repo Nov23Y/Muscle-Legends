@@ -37,15 +37,16 @@ end
 }
 t1.value5 = CreateWindow(v3, {
 	Title = "<font color='#FFC0CB'><b>王佳欣</b></font>",
+	Background = "rbxassetid://81760135148841", 
+	BackgroundImageTransparency = 0.5, 
+	IconThemed = true,
 	Author = "<font color='#FFC0CB'><b>王佳欣</b></font>",
 	Folder = "王佳欣",
 	Size = uDim2,
-	Transparent = false,
+	Transparent = true,  
 	Theme = "Dark",
 	SideBarWidth = 150,
 	ScrollBarEnabled = true,
-	Background = "",
-	BackgroundImageTransparency = 0,
 	Color = v18,
 	User = t3
 })
